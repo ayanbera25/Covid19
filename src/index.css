@@ -11,3 +11,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.eachWidget{
+  width: 24.5%;
+  background-color:rgb(86, 156, 46);
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.eachWidget:hover{
+  background-color:rgb(92, 229, 13);
+}
+.widgetsContainer{
+  display: flex;
+  justify-content: space-between;
+}
